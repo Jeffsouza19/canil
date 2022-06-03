@@ -1,0 +1,13 @@
+no server importar express / dotenv / mustache / path /
+
+
+puxar dotenv
+
+server = express
+
+server.set()
+
+
+
+//// criar as rotas
+
