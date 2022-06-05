@@ -14,5 +14,9 @@
         </div>
     {{/list}}
 </div>
-
+{{^list}}
+    <div class="container no-list">
+        Não há animais com esse nome.
+    </div>
+{{/list}}
 {{>partials/footer}}
